@@ -58,7 +58,7 @@ function generateInvoice() {
         `;
     });
 
-    const taxes = subtotal * 0.1; // Example tax rate
+    const taxes = subtotal * 0.13; // Example tax rate
     const totalAmountDue = subtotal + taxes;
 
     const reader = new FileReader();
